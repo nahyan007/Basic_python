@@ -1,0 +1,3 @@
+This file is part of the 31.read a file.py
+it's purpose is to open when thr py file write with open ("31.read a file.txt) as a file:
+print (file.read())
