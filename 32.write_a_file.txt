@@ -1,0 +1,8 @@
+hey 
+this is a test file 
+and 
+it's created by python
+w mood can overwrite any text given in the field
+
+
+mood a can append text to the file 
