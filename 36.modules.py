@@ -7,3 +7,5 @@
 # from module_name *            #for all things from a module
 
 help("modules")
+
+# visit "https://docs.python.org/3/py-modindex.html" for more information about modules
