@@ -1,4 +1,4 @@
-import os
+# import os
 
 # path = "35.delete_a_file.txt"
 
@@ -11,13 +11,31 @@ import os
 
 # delete a folder
 
+# path = "empty_folder"
+
+# try:
+#     os.rmdir(path)
+# except FileNotFoundError:
+#     print("that folder does not exist")
+# except PermissionError:
+#     print("not allowed to delete")
+# else:
+#     print(path + " was deleted")
+
+
+# delete a not empty folder
+
+import shutil
+
 path = "empty_folder"
 
 try:
-    os.rmdir(path)
+    shutil.rmtree(path)
 except FileNotFoundError:
     print("that folder does not exist")
 except PermissionError:
     print("not allowed to delete")
+except OSError:
+    print("can't delete with this function")
 else:
     print(path + " was deleted")
