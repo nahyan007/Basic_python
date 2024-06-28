@@ -1,0 +1,11 @@
+hey 
+this is a test file 
+and 
+it's created by python
+w mood can overwrite any text given in the field
+
+
+mood a can append text to the file 
+
+
+33.copy_a_file.txt is a copied file from 32.write_a_file.txt
