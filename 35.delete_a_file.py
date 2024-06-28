@@ -39,3 +39,7 @@ except OSError:
     print("can't delete with this function")
 else:
     print(path + " was deleted")
+    
+# os.remove(path) = delete a file
+# os.rmdir(path) = delete an empty folder
+# shutil.rmtree(path) = delete an folder that contains files
